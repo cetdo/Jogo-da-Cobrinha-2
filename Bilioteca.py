@@ -13,3 +13,7 @@ DeepSkyBlue=(000,191,255)#azul suave, céu
 SteelBlue=(070,130,180)#azul, escuro
 SeaGreen=(046,139,087)#verde
 Firebrick=(178,34,034)#vermelho
+
+#Tamanho da tela
+comprimento=500
+altura=500
