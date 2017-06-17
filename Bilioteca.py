@@ -6,4 +6,10 @@ from pygame.locals import *
 from random import randint
 
 #Lista de cores
-cor=[(030,144,255),(250,240,230)]
+FloralWhite=(255,250,240)#branco
+DarkSlateGray=(047,079,079)#verde/cinza
+SlateGray=(112,128,144)#azul/cinza
+DeepSkyBlue=(000,191,255)#azul suave, céu
+SteelBlue=(070,130,180)#azul, escuro
+SeaGreen=(046,139,087)#verde
+Firebrick=(178,34,034)#vermelho
