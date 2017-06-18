@@ -17,3 +17,10 @@ Firebrick=(178,34,034)#vermelho
 #Tamanho da tela
 comprimento=500
 altura=500
+
+#Direccoes
+CIMA = 8
+BAIXO = 2
+ESQUERDA=4
+DIREITA=6
+
