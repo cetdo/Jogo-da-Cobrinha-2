@@ -24,3 +24,21 @@ BAIXO = 2
 ESQUERDA=4
 DIREITA=6
 
+#Quadrado
+#funcao rect(X, Y, largura, altura)
+#Snake
+snake = [[30,120],[10,120]]
+
+cabeca = [30,120] 
+
+x=randint(0,20)
+y=randint(0,19)
+
+comida = 0
+while True:
+    x1=randint(0,20)
+    y1=randint(0,17)
+    comidaXY=[int(x1*20)+10,int(y1*20)+120]
+    if snake.count(comidaXY)==0:
+        comida=1
+        break
