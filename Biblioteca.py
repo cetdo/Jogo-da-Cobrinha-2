@@ -7,38 +7,39 @@ from random import randint
 
 #Lista de cores
 FloralWhite=(255,250,240)#branco
-DarkSlateGray=(047,079,079)#verde/cinza
+DarkSlateGray=(47,79,79)#verde/cinza
 SlateGray=(112,128,144)#azul/cinza
 DeepSkyBlue=(000,191,255)#azul suave, céu
-SteelBlue=(070,130,180)#azul, escuro
-SeaGreen=(046,139,087)#verde
-Firebrick=(178,34,034)#vermelho
+SteelBlue=(70,130,180)#azul, escuro
+SeaGreen=(46,139,87)#verde
+Firebrick=(178,34,34)#vermelho
 
 #Tamanho da tela
-comprimento=500
-altura=500
+screen_length = 500
+screen_high = 500
 
 #Direccoes
-CIMA = 8
-BAIXO = 2
-ESQUERDA=4
-DIREITA=6
+up = 8
+down = 2
+left = 4
+right = 6
 
 #Quadrado
 #funcao rect(X, Y, largura, altura)
 #Snake
 snake = [[30,120],[10,120]]
 
-cabeca = [30,120] 
+head = [30,120]
 
-x=randint(0,20)
-y=randint(0,19)
+x = randint(0,20)
+y = randint(0,19)
 
-comida = 0
+apple = 0
+
 while True:
-    x1=randint(0,20)
-    y1=randint(0,17)
-    comidaXY=[int(x1*20)+10,int(y1*20)+120]
+    x1 =randint(0,20)
+    y1 =randint(0,17)
+    comidaXY =[int(x1*20)+10,int(y1*20)+120]
     if snake.count(comidaXY)==0:
-        comida=1
+        apple = 1
         break
